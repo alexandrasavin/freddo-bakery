@@ -1,0 +1,278 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  cursor: context-menu;
+}
+
+htlm,
+body {
+  height: 100%;
+  background-color: #faf3e0;
+  color: #471b0e;
+  font-family: "Montserrat", sans-serif;
+  overflow-x: hidden;
+}
+
+.main {
+  width: 100%;
+  height: 100vh;
+}
+
+.colored-section {
+  background-color: #f0cbaf;
+}
+
+/* BRAND */
+
+#brand {
+  display: flex;
+  align-items: center;
+  padding: 2em;
+  width: 100%;
+}
+
+.brand-name {
+  font-family: "Rochester", cursive;
+  margin-left: 1em;
+  font-size: 2em;
+}
+
+.brand-icon {
+  text-shadow: 4px 4px 4px rgba(98, 66, 42, 0.71);
+}
+
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* NAV BAR */
+
+.top-navbar {
+  display: flex;
+  justify-content: flex-end;
+  position: relative;
+  margin-right: 1.5em;
+}
+
+.nav-link {
+  margin: 1.5em;
+  text-decoration: none;
+  font-family: "Varela Round", sans-serif;
+  font-weight: bolder;
+  font-size: 1.5em;
+  text-shadow: 4px 4px 4px rgba(131, 125, 120, 0.71);
+  color: #471b0e;
+}
+
+.nav-link:hover {
+  color: #faf3e0;
+  cursor: pointer;
+}
+
+/* TOP TEXT */
+
+.text-box {
+  margin: 3em 0 5em 5em;
+}
+
+.main-text {
+  font-family: "Varela Round", sans-serif;
+  font-size: 6.5em;
+  width: 100%;
+  margin-bottom: 0.2em;
+  text-shadow: 4px 4px 4px rgba(98, 66, 42, 0.71);
+}
+
+.secondary-text {
+  width: 25em;
+  text-shadow: 4px 4px 4px rgba(134, 109, 90, 0.71);
+  font-size: 1.5em;
+  line-height: 1.6;
+}
+
+.home-main {
+  display: flex;
+  align-items: center;
+}
+
+.info-point {
+  margin-left: 5em;
+  line-height: 1.6;
+  text-shadow: 4px 4px 4px rgba(109, 94, 82, 0.71);
+}
+
+/* SECTION 2 */
+
+.about-container {
+  position: relative;
+}
+
+.about-box {
+  position: absolute;
+  z-index: 999;
+  height: 27em;
+  width: 53em;
+  top: 15em;
+  left: 8em;
+  padding: 3em;
+  text-align: left;
+  line-height: 2;
+  background-color: #f0cbaf;
+  box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -webkit-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.18);
+  -moz-box-shadow: -9px 10px 5px 0px rgba(0, 0, 0, 0.18);
+}
+
+.about-title {
+  font-family: "Rochester", cursive;
+  font-size: 4em;
+  text-shadow: 4px 4px 4px rgba(139, 123, 111, 0.71);
+}
+
+.about-text {
+  font-size: 1.5em;
+}
+
+.about-pic {
+  height: 100vh;
+  z-index: -999;
+  margin-left: 35em;
+}
+
+/* SECTION 3 + SECTION 4 */
+
+.product-title,
+.cakes-title {
+  font-family: "Rochester", cursive;
+  font-size: 3em;
+  text-align: center;
+}
+
+.prod-title,
+.cake-title {
+  padding-top: 1.3em;
+  text-shadow: 4px 4px 4px rgba(139, 123, 111, 0.71);
+}
+
+.product-cards,
+.cakes-cards {
+  margin: 9em 5em 10em 4em;
+  display: grid;
+  grid-template-columns: 40em 40em 40em;
+}
+
+.info-card {
+  line-height: 1.7;
+  width: 50%;
+  margin-top: 1em;
+}
+
+.info-card h2 {
+  text-shadow: 4px 4px 4px rgba(139, 123, 111, 0.71);
+}
+
+.info-card p {
+  font-size: 1.2em;
+}
+
+.goodies-img,
+.cakes-img {
+  height: 35vh;
+  width: 50vh;
+  border-radius: 1em;
+  box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+-webkit-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+-moz-box-shadow: 0px 0px 19px -4px rgba(0,0,0,0.75);
+}
+
+.goodies-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* SECTION 4 */
+
+.info-card-cakes {
+  line-height: 1.7;
+  width: 80%;
+  margin-top: 1em;
+}
+
+.info-card-cakes p {
+  font-size: 1.2em;
+}
+
+.info-card-cakes h2 {
+  text-shadow: 4px 4px 4px rgba(139, 123, 111, 0.71);
+}
+
+.cakes-img:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+
+/* SECTION 5 */
+
+.contact-img {
+  height: 100vh;
+  z-index: -999;
+  margin-left: -10em;
+}
+
+.contact {
+  position: relative;
+}
+
+.contact-info {
+  position: absolute;
+  z-index: 999;
+  height: 27em;
+  width: 50em;
+  top: 17em;
+  left: 60em;
+  text-align: left;
+  line-height: 2;
+  background-color: #faf3e0;
+  color: #471b0e;
+  box-shadow: 8px 8px 23px 6px rgba(0, 0, 0, 0.42);
+  -webkit-box-shadow: 8px 8px 23px 6px rgba(0, 0, 0, 0.42);
+  -moz-box-shadow: 8px 8px 23px 6px rgba(0, 0, 0, 0.42);
+}
+
+.contact-title {
+  font-family: "Rochester", cursive;
+  font-size: 3em;
+  text-shadow: 4px 4px 4px rgba(139, 123, 111, 0.71);
+}
+
+.contact-text {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 2.6em;
+}
+
+.adress {
+  margin-top: 2.5em;
+  line-height: 2.2;
+}
+
+.footer {
+  padding: 0.5em;
+  text-align: center;
+  line-height: 2.5;
+  font-size: 0.9em;
+}
+
+.footer-icons {
+  margin: 0 0.6em;
+  color: #471b0e;
+}
+
+.footer-icons:hover {
+  color: #faf3e0;
+  cursor: pointer;
+}
